@@ -1,0 +1,47 @@
+1. O que é e qual o Objetivo?
+
+    O JavaScript é uma linguagem de programação de alto nível, interpretada e multiparadigma.
+
+    Objetivo: Tornar as páginas web dinâmicas. Ele permite que o site responda a cliques, valide formulários em tempo real, atualize conteúdos sem recarregar a página e crie sistemas complexos no navegador.
+
+    Versatilidade: Hoje, o JS não vive apenas no navegador. Com o Node.js, ele também é usado no servidor (Backend), em aplicativos móveis (React Native) e até em hardware (IoT).
+
+2. História: Criado em 10 dias
+
+    Origem (1995): Criado por Brendan Eich na Netscape. A lenda diz que a primeira versão foi escrita em apenas 10 dias para competir com o Internet Explorer.
+
+    O Nome: Chamava-se Mocha, depois LiveScript. O nome "JavaScript" foi uma estratégia de marketing para aproveitar a fama da linguagem Java na época (embora sejam linguagens totalmente diferentes).
+
+    ECMAScript: Para evitar que cada navegador criasse sua própria versão, a linguagem foi padronizada como ECMAScript. Quando ouvimos "ES6" ou "ESNext", estamos falando das versões modernas dessa padronização.
+
+3. Filosofia: Eventos e Assincronismo
+
+    A filosofia do JavaScript é baseada em Eventos. O código fica "ouvindo" o que o usuário faz:
+
+    "O usuário clicou aqui? Execute esta função."
+
+    "O usuário terminou de digitar? Valide o e-mail."
+
+    Outro pilar é o Assincronismo: o JS consegue pedir dados a um servidor em segundo plano enquanto o usuário continua navegando, sem travar a interface (famoso AJAX/Promises).
+
+4. Diferenciais do JavaScript
+
+    Onipresença: É a única linguagem que roda nativamente em todos os navegadores do mundo sem precisar de instalação.
+
+    Ecossistema Gigantesco: Possui o maior gerenciador de pacotes do mundo (NPM), com milhões de bibliotecas prontas para uso.
+
+    Frameworks Modernos: Ferramentas como React, Vue e Angular permitem criar sites que parecem aplicativos de desktop rápidos e fluidos.
+
+    Tipagem Dinâmica: Você não precisa declarar se uma variável é um número ou texto; o JS descobre isso sozinho (embora o TypeScript tenha surgido para adicionar regras mais rígidas a isso).
+
+5. Como funciona (Exemplo Prático)
+
+   O JS manipula o HTML através de algo chamado DOM (Document Object Model).
+
+// Seleciona um elemento do HTML
+const botao = document.querySelector('#meuBotao');
+
+// Adiciona um comportamento de clique
+botao.addEventListener('click', () => {
+    alert('Você interagiu com a página!');
+});
