@@ -1,27 +1,27 @@
-📚 Meu Plano de Estudos
+📚 My Study Roadmap
 
-Repositório central de anotações e fundamentos das principais linguagens e tecnologias que estou dominando. Conteúdo estruturado em arquivos .txt para consulta rápida e leve.
-🛠️ Tecnologias no Radar
-Linguagem/Tech	Foco de Estudo	Status
-HTML5	Estrutura e Semântica	✅ Concluído
-CSS3	Layouts (Flex/Grid) e Estilização	🚧 Em progresso
-JavaScript	Lógica, DOM e Assincronismo	🚧 Em progresso
-Python	Automação e Scripting	📅 Planejado
-Java	POO e Estrutura de Dados	📅 Planejado
-📂 Organização do Repositório
+A central repository for notes and fundamentals of the main languages and technologies I am mastering. Content is structured in .txt files for quick and lightweight reference.
+🛠️ Technologies on My Radar
+Language/Tech	Study Focus	Status
+HTML5	Structure and Semantics	✅ Completed
+CSS3	Layouts (Flex/Grid) and Styling	🚧 In Progress
+JavaScript	Logic, DOM, and Asynchronicity	🚧 In Progress
+Python	Automation and Scripting	📅 Planned
+Java	OOP and Data Structures	📅 Planned
+📂 Repository Organization
 
-    /html: Tags, formulários, SEO e acessibilidade.
+    /html: Tags, forms, SEO, and accessibility.
 
-    /css: Box model, seletores, responsividade e animações.
+    /css: Box model, selectors, responsiveness, and animations.
 
-    /javascript: Variáveis, funções, eventos e manipulação de API.
+    /javascript: Variables, functions, events, and API manipulation.
 
-    /python: Sintaxe básica, listas, dicionários e funções.
+    /python: Basic syntax, lists, dictionaries, and functions.
 
-    /java: Classes, objetos, herança e tipos de dados.
+    /java: Classes, objects, inheritance, and data types.
 
-🎯 Objetivo
+🎯 Objective
 
-Este repositório serve como meu "Cérebro Externo". O objetivo é documentar o aprendizado diário para fixação de conceitos e consulta futura, mantendo o código e a teoria sempre acessíveis.
+This repository serves as my "External Brain". The goal is to document daily learning to reinforce concepts and for future reference, keeping both code and theory always accessible.
 
-    "A melhor forma de aprender é ensinando (ou documentando para o seu 'eu' do futuro)."
+    "The best way to learn is by teaching (or documenting for your 'future self')."
