@@ -1,0 +1,48 @@
+1. O que é e qual o Objetivo?
+
+    O CSS é uma linguagem de estilo (não de programação) utilizada para descrever a apresentação de um documento escrito em HTML.
+
+    Objetivo: Separar o conteúdo (HTML) do design (CSS). Isso permite que você altere a aparência de todo um site mudando apenas um arquivo, sem mexer no texto ou na estrutura.
+
+    O que ele controla: Cores, fontes, espaçamentos (margens e paddings), layouts (posicionamento), animações e adaptabilidade para dispositivos móveis (responsividade).
+
+2. História: A Luta pela Padronização
+
+    Origem (1994-1996): Proposto por Håkon Wium Lie enquanto trabalhava com Tim Berners-Lee no CERN. Antes do CSS, o estilo era "sujo", feito dentro das tags HTML (ex: <font color="red">), o que tornava a manutenção impossível.
+
+    CSS1 (1996): Definiu propriedades básicas como fontes e cores.
+
+    CSS2 (1998): Adicionou suporte a posicionamento relativo/absoluto e tipos de mídia (estilo para impressão).
+
+    CSS3 (2011+): A versão atual e modular. Trouxe bordas arredondadas, sombras, gradientes, transições e, o mais importante, Flexbox e Grid, que revolucionaram o layout.
+
+3. Filosofia: A "Cascata" e a Herança
+
+    A palavra "Cascata" no nome não é enfeite. Ela define a hierarquia de como as regras são aplicadas:
+
+    Cascata: Se houver duas regras conflitantes para o mesmo elemento, a que vier por último (ou a mais específica) vence.
+
+    Herança: Algumas propriedades aplicadas a um elemento "pai" (como a cor do texto em um bloco) são automaticamente herdadas pelos elementos "filhos" dentro dele.
+
+4. Diferenciais e Poder do CSS Moderno
+
+    O CSS evoluiu de uma simples ferramenta de cores para um motor gráfico potente:
+
+    Responsividade (Media Queries): Permite que o site mude de layout automaticamente se detectado que o usuário está num celular ou num monitor 4K.
+
+    Flexbox e Grid: Sistemas avançados de alinhamento que permitem criar layouts complexos em minutos, algo que levava horas antigamente.
+
+    Animações: Você pode criar movimentos e efeitos de transição complexos sem precisar de JavaScript.
+
+    Variáveis (Custom Properties): Permite definir uma cor uma única vez (ex: --cor-principal: #3498db;) e usá-la em todo o código.
+
+5. Como funciona (Sintaxe)
+
+   O CSS funciona através de Seletores e Declarações.
+
+/* Seletor: o que eu quero estilizar? */
+h1 {
+    color: blue;          /* Propriedade e Valor */
+    font-size: 24px;      /* Outra declaração */
+    text-align: center;   /* Alinhamento */
+}
