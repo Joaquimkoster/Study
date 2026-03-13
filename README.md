@@ -1,4 +1,4 @@
-📚 My Study Roadmap
+📚 Meu Plano de Estudos
 
 Repositório central de anotações e fundamentos das principais linguagens e tecnologias que estou dominando. Conteúdo estruturado em arquivos .txt para consulta rápida e leve.
 🛠️ Tecnologias no Radar
