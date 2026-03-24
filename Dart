@@ -1,0 +1,67 @@
+1. História: O "JavaScript Killer"
+
+    Origem: Criada pelo Google, foi apresentada pela primeira vez em 2011, na conferência GOTO na Dinamarca.
+
+    Os Criadores: Foi desenvolvida por mentes brilhantes como Lars Bak (o cara que criou a V8, o motor super-rápido do Chrome) e Kaspar Lund.
+
+    A Missão Original: O objetivo era substituir o JavaScript como a linguagem principal da web. O Google achava o JS "quebrado" e difícil de escalar para aplicações gigantes.
+
+    O "Fracasso" Inicial: O mercado não quis abandonar o JS, e os navegadores (além do Chrome) se recusaram a rodar Dart nativamente. O Dart quase "morreu" entre 2014 e 2017, ficando restrito a projetos internos do Google (como o Google Ads).
+
+2. O Renascimento (A Era Flutter)
+
+    O Dart foi salvo pelo Flutter. O Google precisava de uma linguagem que permitisse criar interfaces rápidas e fluidas para mobile. O Dart era perfeito porque permitia:
+
+    Hot Reload: Ver as mudanças no código instantaneamente (produtividade).
+
+    Performance Nativa: Compilar código diretamente para o processador do celular (ARM/x86).
+
+3. Filosofia e Características
+
+    O Dart foi desenhado para ser produtivo, rápido e familiar. Se você conhece Java, C# ou JavaScript, aprende Dart em uma tarde.
+
+    Tipagem Forte (Sound Type System): Diferente do JS, o Dart é tipado. Isso evita erros bobos de "undefined is not a function".
+
+    Multi-paradigma: É fortemente orientada a objetos (classes, mixins), mas lida muito bem com programação funcional.
+
+    Compilação Flexível (O Segredo do Dart):
+
+        JIT (Just-In-Time): Durante o desenvolvimento, o código é compilado na hora. É o que permite o Hot Reload.
+
+        AOT (Ahead-Of-Time): Na hora de publicar o app, ele compila tudo para código de máquina puro. O app fica rápido como se fosse feito em C++.
+
+4. Objetivos Atuais
+
+    Hoje, o Dart não quer mais matar o JavaScript. O objetivo dele é ser a linguagem definitiva para o cliente (UI-Optimized).
+
+    Multiplataforma: Escreva um código e rode no Android, iOS, Web, Windows, Mac e Linux.
+
+    Foco em UI: A sintaxe é otimizada para criar árvores de widgets de forma legível.
+
+    Segurança (Null Safety): Atualmente, o Dart é "Sound Null Safety", o que significa que o compilador garante que variáveis não fiquem nulas por acidente, evitando o famoso erro de Null Pointer.
+
+5. Exemplo de Código (Sintaxe)
+
+void main() {
+  // Variável com Null Safety
+  String? nome = "Joaquim"; 
+  
+  // Função asíncrona (Async/Await) igual no JS
+  sayHello(nome);
+}
+
+Future<void> sayHello(String name) async {
+  print("Olá, $name! Dart é incrível.");
+}
+
+6. Por que aprender hoje?
+
+    Flutter: É a principal razão. O mercado de desenvolvedores Flutter está aquecido.
+
+    Google: O Google usa Dart nos seus maiores geradores de receita (Google Ads e Google Pay).
+
+    Facilidade: É uma das linguagens mais fáceis de ler do mundo.
+
+Curiosidade: O que significa "Dart"?
+
+Diferente de Java ou Python, o nome não tem uma história profunda. "Dart" (dardo, em inglês) foi escolhido para passar a ideia de velocidade e precisão.
